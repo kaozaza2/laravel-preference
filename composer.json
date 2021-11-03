@@ -1,0 +1,23 @@
+{
+  "name": "mikore/laravel-preference",
+  "description": "Shared preferences for Laravel 8.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mikore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kao Kittisak",
+      "email": "kittisakphiri@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-json": "*",
+    "illuminate/container": "^8.63"
+  }
+}
